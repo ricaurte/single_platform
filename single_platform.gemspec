@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["justin@justinricaurte.com"]
   spec.description   = %q{A simple way to get data from the Single Platform api.}
   spec.summary       = %q{A simple way to get data from the Single Platform api.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ricaurte/single_platform"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
