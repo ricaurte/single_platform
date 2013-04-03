@@ -23,6 +23,7 @@ class SinglePlatform::Menu
     entries.each do |entry|
       if entry["type"] == "section"
         current_section = SinglePlatform::MenuSection.new(self, entry)
+        menu_sections << current_section
       else
         current_section.menu_items << SinglePlatform::MenuItem.new(current_section, entry)
       end
